@@ -10,15 +10,15 @@ on:
       NEW_NAME:
         description: '同步后镜像名称:版本'
         required: true
-        default: 'mysql-server'
+        default: 'mysql-server:mediamtx:latest'
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
-        default: 'registry.cn-chengdu.aliyuncs.com'
+        default: 'registry.cn-qingdao.aliyuncs.com'
       TARGET_REPOSITORY:
         description: '空间名称'
         required: true
-        default: 'aopkcn'
+        default: 'intron-temp'
       ARCH:
         description: '系统架构'
         required: true
